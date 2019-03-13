@@ -22,13 +22,15 @@ namespace TenMinuteTakeover.AzureFunction.Clients
         {
             var settings = GetSettings();
             var token = await GetTokenAsync(settings);
+
+            // TODO: Swap 'SpotifyWebAPI' for our own implementation 
             var api = new SpotifyWebAPI
             {
                 AccessToken = token.AccessToken,
                 TokenType = token.Type
             };
 
-            // TODO: currently using 'GetArtistsTopTracksAsync' for testing purposes 
+            // TODO: using 'GetArtistsTopTracksAsync' for testing, swap for users favourite
             var result = await api.GetArtistsTopTracksAsync(PostMaloneArtistId, Country);
 
             return result.Tracks.Select(o => new SpotifyTrack
