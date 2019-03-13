@@ -6,7 +6,7 @@ namespace TenMinuteTakeover.AzureFunction.Clients
 {
     static class TwitterClient
     {
-        public static void PublishTweetAsync(string tweet)
+        public static void PublishTweet(string tweet)
         {
             var settings = GetSettings();
 

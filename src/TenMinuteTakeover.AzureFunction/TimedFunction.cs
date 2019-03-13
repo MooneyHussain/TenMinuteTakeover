@@ -20,7 +20,7 @@ namespace TenMinuteTakeover.AzureFunction
                 if (track.FeaturingArtist.Any())
                     tweetToSend += tweetToSend + $" feat {string.Join(",", track.FeaturingArtist)}";
 
-                TwitterClient.PublishTweetAsync(tweetToSend);
+                TwitterClient.PublishTweet(tweetToSend);
             }
         }
     }
