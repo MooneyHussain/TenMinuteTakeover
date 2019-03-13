@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.329
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TenMinuteTakeover.AzureFunction", "src\TenMinuteTakeover.AzureFunction\TenMinuteTakeover.AzureFunction.csproj", "{0CD41CC3-8E89-4F17-B0C3-4349A301D3FA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0CD41CC3-8E89-4F17-B0C3-4349A301D3FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CD41CC3-8E89-4F17-B0C3-4349A301D3FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CD41CC3-8E89-4F17-B0C3-4349A301D3FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CD41CC3-8E89-4F17-B0C3-4349A301D3FA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FDDD21BF-03AF-41D2-92F3-8F22F8043496}
+	EndGlobalSection
+EndGlobal
